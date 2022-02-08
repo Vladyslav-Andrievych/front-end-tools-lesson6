@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0"
+  },
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --mode=development --devtool eval-source-map -w"
@@ -11,20 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/Vladyslav-Andrievych/front-end-tools-lesson6.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vladyslav-Andrievych/front-end-tools-lesson6/issues"
   },
-  "homepage": "https://github.com/Vladyslav-Andrievych/front-end-tools-lesson6#readme",
-  "devDependencies": {
-    "css-loader": "^6.6.0",
-    "file-loader": "^6.2.0",
-    "sass": "^1.49.7",
-    "sass-loader": "^12.4.0",
-    "style-loader": "^3.3.1",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
-  }
+  "homepage": "https://github.com/Vladyslav-Andrievych/front-end-tools-lesson6#readme"
 }

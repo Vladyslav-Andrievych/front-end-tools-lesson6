@@ -1,11 +1,22 @@
 // file path: src/index.js
 
-import renderProfile from './profile/renderProfile.js';
-import './index.css';
+import { printProfile } from './profile';
 
-const profileData = {
+const userData = {
   name: 'Tom',
-  location: 'The World',
+  age: 17,
 };
 
-renderProfile(profileData);
+const profile = {
+  ...userData,
+  company: 'Gromcode',
+};
+
+printProfile(profile);
+
+const data = [1, 2, [3, 4, [5, 6]]];
+
+const result = data.flat(2);
+console.log(result);
+
+Promise.resolve().finally();
